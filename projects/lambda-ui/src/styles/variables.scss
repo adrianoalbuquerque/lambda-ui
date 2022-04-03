@@ -1,0 +1,114 @@
+// Border radius
+$border-radius-none: 0px;
+$border-radius-xs: 4px;
+$border-radius-sm: 8px;
+$border-radius-pill: 500px;
+$border-radius-circular: 50%;
+
+// Border widhts
+$border-width-none: 0px;
+$border-width-hairline: 1px;
+$border-width-thin: 2px;
+
+// Brand colors
+$color-brand-primary-darkest: #002A52;
+$color-brand-primary-dark: #003F7A;
+$color-brand-primary-medium: #0056A4;
+$color-brand-primary-light: #0069CC;
+$color-brand-primary-lightest: #007EF5;
+
+$color-brand-secondary-darkest: #B88714;
+$color-brand-secondary-dark: #DCA218;
+$color-brand-secondary-medium: #E8B235;
+$color-brand-secondary-light: #EDC15A;
+$color-brand-secondary-lightest: #F1CE7E;
+
+
+// Neutral colors
+$color-neutral-darkest: #111111;
+$color-neutral-dark: #525252;
+$color-neutral-medium: #919191;
+$color-neutral-light: #D1D1D1;
+$color-neutral-lightest: #FFFFFF;
+
+// Feedback colors
+$color-feedback-danger-dark: #871E1E;
+$color-feedback-danger-medium: #D32F2F;
+$color-feedback-danger-light: #FDECEA;
+
+$color-feedback-sucess-dark: #35521D;
+$color-feedback-sucess-medium: #689F38;
+$color-feedback-sucess-light: #EDF7ED;
+
+$color-feedback-warning-dark: #663C1B;
+$color-feedback-warning-medium: #E86E17;
+$color-feedback-warning-light: #FFF4E5;
+
+// Font family
+$font-family: roboto;
+
+// Line height
+$line-height-tight: 100%;
+$line-height-medium: 125%;
+$line-height-distant: 150%;
+$line-height-superdistant: 200%;
+
+// Font weight
+$font-weight-bold: 700;
+$font-weight-regular: 500;
+$font-weight-light: 400;
+
+// Font size
+$font-size-xs: 13px;
+$font-size-sm: 15px;
+$font-size-md: 18px;
+$font-size-lg: 20px;
+$font-size-xl: 30px;
+
+// Opacity
+$opacity-level-intense: 80%;
+$opacity-level-semiopaque: 65%;
+$opacity-level-medium: 50%;
+$opacity-level-low: 25%;
+
+// Shadow
+$shadow-level-0: 0 0 0 3px;
+$shadow-level-1: 3px 3px 5px rgba($color-neutral-dark, $opacity-level-medium)!important;
+$shadow-level-2: 4px 8px 8px;
+
+// Spacing inset
+$spacing-inset-nano: 8px;
+$spacing-inset-xs: 18px;
+$spacing-inset-sm: 24px;
+$spacing-inset-md: 32px;
+$spacing-inset-lg: 40px;
+
+// Spacing Squish
+$spacing-squish-nano: 8px 16px;
+$spacing-squish-xs: 16px 24px;
+$spacing-squish-sm: 16px 32px;
+
+// Spacing inline
+$spacing-inline-nano: 8px;
+$spacing-inline-xxxs: 16px;
+$spacing-inline-xxs: 24px;
+$spacing-inline-xs: 32px;
+$spacing-inline-sm: 40px;
+$spacing-inline-md: 48px;
+$spacing-inline-lg: 64px;
+$spacing-inline-xl: 80px;
+
+// Spacing stack
+$spacing-stack-nano: 8px;
+$spacing-stack-xxxs: 16px;
+$spacing-stack-xxs: 24px;
+$spacing-stack-xs: 32px;
+$spacing-stack-sm: 40px;
+$spacing-stack-md: 48px;
+$spacing-stack-lg: 56px;
+$spacing-stack-xl: 64px;
+$spacing-stack-xxl: 81px;
+$spacing-stack-xxl: 120px;
+$spacing-stack-huge: 160px;
+$spacing-stack-giant: 200px;
+

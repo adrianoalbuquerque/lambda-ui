@@ -105,6 +105,37 @@
           }
         }
       }
+    },
+    "lambda-ui": {
+      "projectType": "library",
+      "root": "projects/lambda-ui",
+      "sourceRoot": "projects/lambda-ui/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/lambda-ui/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/lambda-ui/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/lambda-ui/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/lambda-ui/src/test.ts",
+            "tsConfig": "projects/lambda-ui/tsconfig.spec.json",
+            "karmaConfig": "projects/lambda-ui/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "lambda"
