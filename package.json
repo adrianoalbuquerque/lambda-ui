@@ -1,5 +1,5 @@
 {
-  "name": "lambda",
+  "name": "adrianoalbuquerque",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -38,5 +38,24 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^13.0.0",
     "typescript": "~4.6.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianoalbuquerque/lambda-ui.git"
+  },
+  "keywords": [
+    "Biblioteca",
+    "de",
+    "componentes",
+    "utilizando",
+    "Angular"
+  ],
+  "author": "Adriano Albuquerque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianoalbuquerque/lambda-ui/issues"
+  },
+  "homepage": "https://github.com/adrianoalbuquerque/lambda-ui#readme"
 }
